@@ -1409,7 +1409,9 @@ section {
 .footer .footer-wrapper .color img {
   margin: 7vmin 1vmin;
 }
-
+.footer .bottm{
+  position: relative;
+}
 .footer .bottom h2 {
   display: flex;
   justify-content: center;
