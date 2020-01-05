@@ -12,30 +12,30 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#menu" data-offset="100">
   <div class="wrap" id="#wrapper">
     <header class="header">
       <div class="content-wrapper header-nav">
         <h1 class="logo-img">
           <a href="#"><img src="img9/logo/logo.png" alt="The Company"></a>
         </h1>
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
           <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="menu" class="collapse navbar-collapse ">
             <ul class="navbar-nav">
-              <li class="navbar-item"><a href="" class="nav-link">Card</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Voice</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">blog</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Price</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">News</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Widget</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Price</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Time</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Content</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Access</a></li>
-              <li class="navbar-item"><a href="" class="nav-link">Contact</a></li>
+              <li class="navbar-item"><a href="#card" class="nav-link">Card</a></li>
+              <li class="navbar-item"><a href="#voice" class="nav-link">Voice</a></li>
+              <li class="navbar-item"><a href="#blog" class="nav-link">blog</a></li>
+              <li class="navbar-item"><a href="#price" class="nav-link">Price</a></li>
+              <li class="navbar-item"><a href="#news" class="nav-link">News</a></li>
+              <li class="navbar-item"><a href="#Widget" class="nav-link">Widget</a></li>
+              <li class="navbar-item"><a href="#Price" class="nav-link">Price</a></li>
+              <li class="navbar-item"><a href="#time" class="nav-link">Time</a></li>
+              <li class="navbar-item"><a href="#Content" class="nav-link">Content</a></li>
+              <li class="navbar-item"><a href="#access" class="nav-link">Access</a></li>
+              <li class="navbar-item"><a href="#Contact" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -56,7 +56,7 @@
     <main>
       <section class="greeting">
         <div class="contents">
-          <h2 class="greeting-tittle">Card</h2>
+          <h2 class="greeting-tittle" id="card">Card</h2>
           <div class="flexbox">
             <div class="item">
               <img src="img9/priscilla-du-preez-YmXcSCAVuO0-unsplash.jpg" alt="item">
@@ -101,7 +101,7 @@
               </div>
             </div>
           </div>
-          <h2 class="greeting-tittle">Voice</h2>
+          <h2 class="greeting-tittle" id="voice">Voice</h2>
           <div class="flexbox-voice">
             <div class="voice">
               <div class="text-left">
@@ -134,7 +134,7 @@
               </div>
             </div>
           </div>
-          <h2 class="greeting-tittle">blog</h2>
+          <h2 class="greeting-tittle" id="blog">blog</h2>
           <div class="flexbox-blog">
             <div class="blog">
               <div class="text-left">
@@ -224,7 +224,7 @@
               </div>
             </div>
           </div>
-          <h2 class="greeting-tittle">Price</h2>
+          <h2 class="greeting-tittle" id="price">Price</h2>
           <div class="flexbox">
             <div class="Price">
               <div class="Price-left">
@@ -327,7 +327,7 @@
             </div>
           </div>
           <div class="News-wrapper">
-            <h2 class="greeting-tittle">News</h2>
+            <h2 class="greeting-tittle" id="news">News</h2>
             <ul>
               <li>
                 <div class="flexbox"><time>2020-01-04</time><label class="label1">ラベル１</label></div><a href="#">ニュース
@@ -355,7 +355,7 @@
           </div>
 
           <div class="Widget-wrapper">
-            <h2 class="greeting-tittle">Widget</h2>
+            <h2 class="greeting-tittle" id="Widget">Widget</h2>
             <div class="flexbox-Widget">
               <div class="Widget-nav">
                 <div class="Widget-title">
@@ -400,7 +400,7 @@
             </div>
           </div>
           <div class="Price-wrapper">
-            <h2 class="greeting-tittle">Price</h2>
+            <h2 class="greeting-tittle" id="Price">Price</h2>
             <div class="Price-contents">
               <img src="img9/emma-paillex-dc0JtKJPLRc-unsplash.jpg" alt="">
               <div class="table-content">
@@ -438,7 +438,7 @@
             </div>
           </div>
           <div class="Time-wrapper">
-            <h2 class="greeting-tittle">Time</h2>
+            <h2 class="greeting-tittle" id="time">Time</h2>
             <div class="Time-content">
               <table>
                 <tr>
@@ -485,7 +485,7 @@
             </div>
           </div>
           <div class="Content-wrapper">
-            <h2 class="greeting-tittle">Content</h2>
+            <h2 class="greeting-tittle" id="Content">Content</h2>
             <div class="Content-content">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/UcGU2GZKo_c" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -508,7 +508,7 @@
             </div>
           </div>
           <div class="Contact-wrapper">
-            <h2 class="greeting-tittle">Contact</h2>
+            <h2 class="greeting-tittle" id="Contact">Contact</h2>
             <form action="" method="POST">
               <div class="form">
                 <div class="name"><label for="namae">お名前<span>必須</span></label><input id="namae" type="text"
