@@ -55,7 +55,9 @@ section {
   margin: 0 auto;
   background-color: #ff4f02;
 }
-
+.fixed-top{
+  position: relative !important;
+}
 .header-nav {
   position: fixed;
   height: 8vmin;
